@@ -1,0 +1,665 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#"
+     xml:base="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#are -->
+
+    <owl:ObjectProperty rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#are"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#asigura -->
+
+    <owl:ObjectProperty rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#asigura"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#asigura_comunicarea -->
+
+    <owl:ObjectProperty rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#asigura_comunicarea">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#asigura_deplasarea -->
+
+    <owl:ObjectProperty rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#asigura_deplasarea">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#comunica_prin -->
+
+    <owl:ObjectProperty rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#comunica_prin"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#este -->
+
+    <owl:ObjectProperty rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#este"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#face_parte_din -->
+
+    <owl:ObjectProperty rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#face_parte_din"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#format_din -->
+
+    <owl:ObjectProperty rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#format_din"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#legat_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#legat_de">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#trec_prin -->
+
+    <owl:ObjectProperty rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#trec_prin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#are"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Cantitate"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Arterial -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Arterial">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Sange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Aspra -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Aspra">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Proprietate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Cantitate -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Cantitate"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Cerebel -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Cerebel">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Subtentorial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Compartiment -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Compartiment">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CutiaCraniana"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CortulCerebelului -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CortulCerebelului">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CutiaCraniana"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CutiaCraniana"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#LCR"/>
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Sange"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CutiaCraniana -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CutiaCraniana">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#comunica_prin"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GauraOccipitala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#comunica_prin"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GaurileRuptePosterioare"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Diencefal -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Diencefal">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Supratentorial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GauraOccipitala -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GauraOccipitala">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#ZoneDeComunicare"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#asigura_deplasarea"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#VolumeLichide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#face_parte_din"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GauraOccipitala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GaurileRuptePosterioare -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GaurileRuptePosterioare">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#ZoneDeComunicare"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#asigura_deplasarea"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#VolumeLichide"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#face_parte_din"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#ZoneDeComunicare"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GlandaEpifiza -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GlandaEpifiza">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Glie -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Glie">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#IncizuraSubfalciforma -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#IncizuraSubfalciforma">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#StructuriFibroase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#IncizuraTentoriala -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#IncizuraTentoriala">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#StructuriFibroase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#IncizuraTentotiala -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#IncizuraTentotiala">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Compartiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Jugulare -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Jugulare">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Vene"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#trec_prin"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GaurileRuptePosterioare"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#L.I. -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#L.I.">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#are"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#ml"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#LCR -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#LCR">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CutiaCraniana"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#are"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#cm3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier"/>
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Sange"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#LacuriVenoaseDurale -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#LacuriVenoaseDurale">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Venos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#MecanismeCompensatoriiFiziopatologice -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#MecanismeCompensatoriiFiziopatologice"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Meninge -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Meninge">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Neuroni -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Neuroni">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#PeretiiVaselorSanguine -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#PeretiiVaselorSanguine">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Proprietate -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Proprietate"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#RadacinileNervilorCranieni -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#RadacinileNervilorCranieni">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Sange -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Sange">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CutiaCraniana"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#are"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#ml"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Creier"/>
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#LCR"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Sinusuri -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Sinusuri">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Venos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#SpatiiDeRezerva -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#SpatiiDeRezerva"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#SpatiulSubarahnoidianCranian -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#SpatiulSubarahnoidianCranian">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GauraOccipitala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#SpatiulSubarahnoidianSpinal -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#SpatiulSubarahnoidianSpinal">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GauraOccipitala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#StructuriFibroase -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#StructuriFibroase"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Subtentorial -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Subtentorial">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Compartiment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#legat_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#IncizuraTentotiala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Supratentorial -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Supratentorial">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Compartiment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#legat_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#IncizuraTentotiala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Telencefal -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Telencefal">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Supratentorial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#TrunchiulCerebral -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#TrunchiulCerebral">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Subtentorial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Vene -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Vene"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#VeneCerebrale -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#VeneCerebrale">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Venos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#VeneJugulareInterne -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#VeneJugulareInterne">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GaurileRuptePosterioare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Venos -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Venos">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Sange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#VolumeLichide -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#VolumeLichide">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CutiaCraniana"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#ZoneDeComunicare -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#ZoneDeComunicare"/>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#cm3 -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#cm3">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Cantitate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#ml -->
+
+    <owl:Class rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#ml">
+        <rdfs:subClassOf rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Cantitate"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#atrofia_ţesutului_cerebral -->
+
+    <owl:NamedIndividual rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#atrofia_ţesutului_cerebral">
+        <rdf:type rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#MecanismeCompensatoriiFiziopatologice"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#creşterea_absorbţiei_de_LCR -->
+
+    <owl:NamedIndividual rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#creşterea_absorbţiei_de_LCR">
+        <rdf:type rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#MecanismeCompensatoriiFiziopatologice"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#cutia_craniana -->
+
+    <owl:NamedIndividual rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#cutia_craniana">
+        <rdf:type rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#SpatiiDeRezerva"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#deshidratarea_ţesutului_cerebral -->
+
+    <owl:NamedIndividual rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#deshidratarea_ţesutului_cerebral">
+        <rdf:type rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#MecanismeCompensatoriiFiziopatologice"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#scaderea_secretiei_de_LCR -->
+
+    <owl:NamedIndividual rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#scaderea_secretiei_de_LCR">
+        <rdf:type rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#MecanismeCompensatoriiFiziopatologice"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#tentoriu -->
+
+    <owl:NamedIndividual rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#tentoriu">
+        <rdf:type rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#CortulCerebelului"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#vasoconstricţia_arterială -->
+
+    <owl:NamedIndividual rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#vasoconstricţia_arterială">
+        <rdf:type rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#MecanismeCompensatoriiFiziopatologice"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#100-150 -->
+
+    <owl:NamedIndividual rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#100-150">
+        <rdf:type rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#ml"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#1250 -->
+
+    <owl:NamedIndividual rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#1250">
+        <rdf:type rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#cm3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#1500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#1500">
+        <rdf:type rdf:resource="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#cm3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#GlandaEpifiza"/>
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Glie"/>
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#L.I."/>
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Meninge"/>
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#Neuroni"/>
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#PeretiiVaselorSanguine"/>
+            <rdf:Description rdf:about="http://www.students.info.uaic.ro/~ionut.trofin/ia.owl#RadacinileNervilorCranieni"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
