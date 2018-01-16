@@ -176,5 +176,5 @@ class RDFProcessor:
 
 
 if __name__ == "__main__":
-    rdf_processor = RDFProcessor('hfdsghfgsdjfh', 'test.txt')
+    rdf_processor = RDFProcessor('hfdsghfgsdjfh', 'test_input.txt')
     print rdf_processor.get_rdf()
