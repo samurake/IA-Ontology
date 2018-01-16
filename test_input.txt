@@ -1,0 +1,91 @@
+HIPERTENSIUNEA INTRACRANIANA 
+
+
+
+
+
+
+
+1.Componentele spatiului intracranian: volumele intracraniene, legea Monro- Kellie, presiunea intracraniana
+
+
+
+
+
+
+
+Componentele spatiului intracranian.
+
+
+
+Cutia craniana este rigida, practic inextensibila la adult, cu volum constant de aprox 1500 cm³ ( exista variatii interindividuale si intre sexe).
+
+Acest volum este ocupat de urmatoarele componente: creier, lichid cefalo-rahidian si sânge circulant. La adult aceste componente ocupa în medie urmatoarele volume:
+
+    1.  Creier: aprox 1250 cm³ (neuroni, glie,lichid interstitial: 100-150 ml,si mici volume reprezentate de meninge, peretii vaselor sanguine, radacinile nervilor cranieni, glanda epifiza, etc.)
+
+2. LCR: 100-150 ml.
+
+3. Sânge (arterial si venos): 100-150 ml.
+
+Presiunea intracraniana normala este de 10-15 mmHg în decubit. Oscilatii fiziologice între 0-20 mmHg pot aparea în functie de ortostatism, efort, presiune toracica, starea de hidratare, etc.Totusi o presiune intracraniana ce se mentine constant peste 10-15 mmHg este considerata crescuta.
+
+
+
+
+
+Legea Monro-Kellie
+
+
+
+Legea Monro-Kellie (1783,1823) cu unele modificari ulterioare atrage atentia asupra prezentei acestor volume incomprimabile într-un continator (spatiu) inextensibil la adult. Ca urmare a acestei legi cresterea în volum a uneia dintre componente se poate face numai în detrimentul celorlalte.
+
+Aparitia unui nou volum intracranian diferit de creier, LCR sau sânge circulant fiziologic, constituie un proces înlocuitor de spatiu sau proces expansiv intracranian, si se supune aceleiasi legi dislocând  componentele de volum intracraniene fiziologice.
+
+Asupra cutiei craniene trebuie facute câteva precizari:
+
+	nu este o cutie închisa, ea comunica prin orificiile de la baza craniului cu alte spatii; dpdv al volumelor principalele zone de comunicare sunt reprezentate de gaura occipitala, pe unde lcr-ul intracranian comunica liber cu lcr-ul spinal, si gaurile rupte posterioare la nivelul carora se afla originea venelor jugulare interne prin care sangele venos intracranian poate fi mobilizat suplimentar fata de fluxul obisnuit, în virtutea cresterii gradientului de presiune intre cutia craniana si atriul drept (cutia toracica).
+
+	structuri fibroase (durale) relativ inextensibile compartimenteaza interiorul cutiei craniene în mai multe încaperi care comunica între ele prin orificii mai mult sau mai putin largi: incizura tentoriala, între etajul subtentorial ocupat de trunchiul cerebral si cerebel si etajul supratentorial ocupat de  diencefal si emisferele cerebrale, incizura subfalciforma între cele doua emisfere cerebrale.
+
+Componentele lichidiene (LCR, sânge) ale volumului intracranian sunt în comunicare libera cu spatii extensibile extracraniene.
+
+Orificiile cutiei craniene, în special gaura occipitala si gaurile rupte posterioare asigura deplasarile rapide ale volumelor lichidiene intracraniene. Spatiul subarahnoidian cranian se continua cu cel spinal la nivelul gaurii occipitale si o cantitate de LCR poate fi  redirijata dintr-un spatiu în altul (sacul dural spinal are posibilitatea de a se colaba si de a expansiona nefiind atasat canalului osos vertebral asa cum duramater craniana este atasata de os). În acest fel volumul de LCR intracranian poate varia rapid în anumite limite asigurând mentinerea unei presiuni intracraniene constante fara a afecta rolul de perna hidraulica pe care LCR-ul îl joaca fata de creier.
+
+La nivelul gaurilor rupte posterioare trec venele jugulare prin care sângele din sistemul venos intracranian: sinusuri si lacuri venoase durale, vene cerebrale, poate fi mobilizat într-o cantitate mai mare sau mai mica asigurând colabarea sau turgescenta venelor intracraniene. În acest fel volumul de sânge venos intracranian poate varia în anumite limite fara a perturba hemodinamica intracraniana.
+
+
+
+
+
+2. Spatiile de rezerva intracraniene, 
+
+complianta cerebrala
+
+
+
+
+
+Volumele usor dislocabile fara consecinte patologice fac parte din spatiile de rezerva ale cutiei craniene. Spatiul de rezerva lichidian difera de la individ la individ si este semnificativ mai mare în functie de gradul atrofiei cerebrale.
+
+Alte spatii de rezerva pot apare prin mecanisme compensatorii fiziopatologice demonstrate sau ipotetice:
+
+-	scaderea secretiei de LCR;
+
+-	cresterea absorbtiei de LCR;
+
+-	vasoconstrictia arteriala cu cresterea compensatorie a presiunii arteriale pentru asigurarea unei irigari sanguine suficiente în conditiile unui volum sanguin cerebral redus;
+
+-	deshidratarea tesutului cerebral;
+
+-	atrofia tesutului cerebral în vecinatatea proceselor expansive cu crestere lenta sau în vecinatatea ventriculilor în hidrocefalia interna.
+
+
+
+
+
+Când spatiile de rezerva ale cutiei craniene au fost epuizate si totusi exista un volum care continua sa creasca (proces expansiv, creier edematiat, lcr în hidrocefalie, sange circulant în cogestia venoasa sau vasodiltatia arteriala, etc) presiunea din cutia craniana incepe sa creasca exponential. Cresterea presiunii în cutia craniana se opune patrunderii sângelui în capilarele tesutului cerebral determinând progresiv scaderea si apoi oprirea fluxului sanghin cerebral cu moartea creierului (decesul)
+
+
+
+Raportul crestere de volum/ crestere a presiunii (deltaV/deltaP) defineste complianta cerebrala. Când spatiile de rezerva nu sunt epuizate cresterea unui volum nu este urmata de o modificare a presiunii intracraniene, raportul deltaV/deltaP este mare si deci complianta cerebrala este mare (buna). Pe masura ce spatiile de rezerva se epuizeaza o crestere mica a unui volum determina o crestere mare de presiune, complianta este proasta (mica) si exista iminenta scaderii fluxului sanghin cerebral sau a angajarilor cerebrale, ambele cu risc vital. O complianta scazuta ne arata deci ca o crestere de volum mica poate determina o crestere semnificativa a presiunii intracraniene. În mod experimental acest parametru se poate inregistra, de exemplu prin injectare periodica de lichid într-un mic rezervor plasat intracranian. Inregistrarea curbei de modificare a compliantei nu a intrat deocamdata în uz clinic si aprecierea momentului decompensarii unui sindrom HIC ( moment ce urmeaza imediat dupa scaderea compliantei în situatia în care unul dintre volume continua sa creasca) tine de date clinice, imagistice si de urmarire a curbei presiunii intracraniene.
