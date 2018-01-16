@@ -1,6 +1,23 @@
 from zeep import Client
 import xml.etree.ElementTree as ET
 
+
+def replace_diacritics(document_name):
+    f = open(document_name, 'r')
+    data = f.read().decode('utf-8')
+    data = data.lower()
+
+    text = unicodedata.normalize('NFD', data)
+    text = text.encode('ascii', 'ignore')
+    text = text.decode("utf-8")
+
+    f.close()
+
+    f = open(document_name, 'w')
+    f.write(text)
+    f.close()
+
+
 def grab_xml(text):
     client = Client('http://nlptools.info.uaic.ro/WebFdgRo/FdgParserRoWS?wsdl')
     result = client.service.parseText(text)
